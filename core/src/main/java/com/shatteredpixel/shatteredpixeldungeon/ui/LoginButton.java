@@ -43,6 +43,6 @@ public class LoginButton extends Button {
 
     @Override
     protected void onClick(){
-        parent.add(new WndLogin());
+       DeviceCompat.openURI("https://shishi1340.github.io/Login/login.html");
     }
 }
